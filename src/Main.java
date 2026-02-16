@@ -3,12 +3,12 @@
 public class Main {
     public static void main(String[] args) throws InsufficientBalanceException {
 
-//        SavingsAccount savingsAccount1=new SavingsAccount(1111,"Orxan",1000);
-//        savingsAccount1.withdraw(1200);
+        SavingsAccount savingsAccount1=new SavingsAccount(1111,"Orxan",1000);
+        savingsAccount1.withdraw(900);
 //
-//        CurrentAccount currentAccount1=new CurrentAccount(1111,"Orxan",1000);
-//        currentAccount1.withdraw(1300);
-//        currentAccount1.withdraw(600);
+        CurrentAccount currentAccount1=new CurrentAccount(1111,"Orxan",1000);
+        currentAccount1.withdraw(1300);
+        currentAccount1.withdraw(600);
 
 
 //        Integer a = 100;

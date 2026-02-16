@@ -17,11 +17,9 @@ public BankAccount(Integer accountNumber, String ownerName, double balance){
         return balance;
     }
 
-    @Override
-    public String toString(){
-        return "Current balance: "+balance;
+
+    public  void printBalance(){
+        System.out.println("Current balance: "+balance);
     }
-
-
 
 }

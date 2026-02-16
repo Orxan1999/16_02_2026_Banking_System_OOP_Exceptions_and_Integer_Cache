@@ -6,7 +6,7 @@ public class CurrentAccount extends BankAccount {
     @Override
     public void deposit(double amount) {
         balance += amount;
-        System.out.println(toString());
+        printBalance();
     }
 
     @Override
@@ -17,7 +17,7 @@ public class CurrentAccount extends BankAccount {
                 throw new InsufficientBalanceException("Balance can't be less than -500");
             }
             balance -= amount;
-            System.out.println(toString());
+            printBalance();
         }
         catch (InsufficientBalanceException ex){
             System.out.println(ex.getMessage());
